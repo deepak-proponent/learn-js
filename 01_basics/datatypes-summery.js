@@ -70,10 +70,20 @@ let myYoutubename = "Riorawat"
 let anotherName = myYoutubename
 anotherName = "Deeapkrawat"
 
-console.log(anotherName);
-console.log(myYoutubename);
+// console.log(anotherName);
+// console.log(myYoutubename);
 
+let userOne = {
+    email: "test@gmail.com",
+    upi : "user@ybl"
+}
 
+let userTwo = userOne
+
+userTwo.email= "rio@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
 
