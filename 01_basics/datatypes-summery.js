@@ -22,11 +22,11 @@ let userEmail;
 const id = Symbol('123');
 const anotherId = Symbol('123');
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const bigNumber = 12121324347984579304598n
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
 
 // 2. Refrence (Non Primitive Datatypes)
 
@@ -59,7 +59,21 @@ const myFunction = function(){
     
 } //function
 
-console.log(typeof heros);
+// console.log(typeof heros);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) & Heap Memory (Non-Primitive)
+
+let myYoutubename = "Riorawat"
+
+let anotherName = myYoutubename
+anotherName = "Deeapkrawat"
+
+console.log(anotherName);
+console.log(myYoutubename);
+
+
 
 
 
