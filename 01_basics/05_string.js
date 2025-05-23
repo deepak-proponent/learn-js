@@ -7,7 +7,7 @@ const repoCount = 60
 
 
 
-// console.log(typeof gameName);
+// console.log(typeof gameName)
 
 // keys value access
 
